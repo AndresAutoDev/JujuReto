@@ -9,4 +9,7 @@ public class HomePage {
 
     public static final Target END_SESION_BTN = Target.the("boton para cerrar sesion")
             .locatedBy("//*[contains(text(), ' Cerrar sesión')]");
+    public static final Target CATALOG_BTN = Target.the("boton para abrir el catalogo")
+            .locatedBy("//h5[contains(text(),'Ir a catálogo')]");
+
 }

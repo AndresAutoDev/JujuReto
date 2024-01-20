@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@Loguin",
+        tags = "@Catalog",
+        //tag loguin: @HappyPath or @UnHappyPath, @Loguin
         snippets = SnippetType.CAMELCASE)
 public class Runner {
 

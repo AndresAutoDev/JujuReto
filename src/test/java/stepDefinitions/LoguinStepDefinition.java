@@ -17,8 +17,6 @@ import static userInterface.HomePage.*;
 import static userInterface.LoguinPage.*;
 import static utils.Constants.*;
 
-import net.serenitybdd.screenplay.Actor;
-
 public class LoguinStepDefinition {
 
     @Before
@@ -34,7 +32,7 @@ public class LoguinStepDefinition {
 
     @Cuando("^el usuario ingrese \"([^\"]*)\" \"([^\"]*)\" y oprima entrar$")
     public void elUsuarioIngreseYOprimaEntrar(String user, String password) {
-        OnStage.theActorCalled(ACTOR).attemptsTo(Loguin.OnThePage(user, password));
+        OnStage.theActorCalled(ACTOR).attemptsTo(Loguin.OnThePage(USER, PASSWORD));
 
     }
 
@@ -50,7 +48,7 @@ public class LoguinStepDefinition {
 
     @Cuando("^el usuario ingrese \"([^\"]*)\" \"([^\"]*)\" incorrectas y oprima entrar$")
     public void elUsuarioIngreseIncorrectasYOprimaEntrar(String user, String password) {
-        OnStage.theActorCalled(ACTOR).attemptsTo(Loguin.OnThePage(user, password));
+        OnStage.theActorCalled(ACTOR).attemptsTo(Loguin.OnThePage(PASSWORD, PASSWORD_INCORRECT));
     }
 
     @Entonces("^el usuario visualiza el mensaje de credenciales incorrectas$")

@@ -4,15 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51dc198c-aeef-4294-a510-d374d9a210b4" name="Changes" comment="Primer commit con loguin completo">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="51dc198c-aeef-4294-a510-d374d9a210b4" name="Changes" comment="identacion de codigo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/userInterface/CatalogPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/CatalogStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/catalog.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/08e534c6cb1b6ec92e9d6224d316acd563ae8fe8ea762fe68e563f51d9495da3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/0eb62d433b6451a2a517287752ed9aacb3fd5d17c10ab2390c97901fc7fb1bcc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1224d62e5097af4dbe4334fa41960f09216d80db3c1ab449e60f2add1e33107f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1236d35754844a36bb9d0a83425f6eca1ce80fe9c48d84f612c730ffe09ca47d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/172ce61f9fc7f338de90d16c54a02e367c56fd9bd6e6b203442f8f40fece21ec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/1cc80d97a69f5ef079366469123bdde33990b0c27feb2ac7ceed44abe4feda00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2099723998bb37ebb6d1a65a515c5c7b53bbab4759c239182efd353da2e37664.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/25fe2f2fcc4f0b0450c740dcf284afc77fcc49d0c14b33d66e8c26f18ee38b6b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/2b5839c09d8ace6e944e63e8ed5cb6bfe4957a5ec36eec5550583b500402875a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/370c70443cd6d0a792748d65cf7475a68f878f4d7421ed0a73db6fecf472896b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/391337b35af8e9939da6aec8c10ae4bb9f1cfdbdbbf40ba8c2d712be07f8d4ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/40b1d823b15c4384946ec3d80f7852ec3f71a802ed28a7d4ffdb6133888361b6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/40b1d823b15c4384946ec3d80f7852ec3f71a802ed28a7d4ffdb6133888361b6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/40b1d823b15c4384946ec3d80f7852ec3f71a802ed28a7d4ffdb6133888361b6_screenshots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/44101bf642ed471625870de6300519bfd1a8a1aed002c8f7187253f57b050f21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/450b87053c4716f3d15a53f20dca0fb8f6d796b5d0d625ac8e00223621189b50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/46ae002f1f6fc558a919554e4d1de5d50fce22caff2793e10370df664c13437c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/4c83fbaf8b116b167b0a6d6fb74726dd358c272e80addf40c1fb2efb9c38fef4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/55ddb06a426c7c3082e37686a4d60846807eca41bbf4b0050d5c8e397825d899.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/57c113b99ff446c6dc51d6413893ab25b4eeeaac745307f650f1de0bc8ca9088.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6718b6c4100ce1914baa772d0b8a5e67e459eb22130d70930bbfa60d5ed8074a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6acf2c78adc97083c6c0426eef15c212f406f96685ce748da875b0916c54d36d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/6e040fcbc2e52e2ad1093d06a9d03c41d2db7bdec796bf93e547a6e9479e0273.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/705aeba6347865571573b7d54a2aa119f66cf11778df6dc0235e126f5cbee328.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7c1c5eaf84a7be29b2f4a98a29c0ab6551defd1da871b012535d66246b865a75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/7e41b117b97a9b7ad867a697057efa7ba0e5a7e8974e30d8df02d7f54abc25be.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8e7cc01e34c43795bc88dfea7f30d7dbd71c2ebda024f718bfe20dc1e176da94.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/8ffcc0373ceee8bc7e76bbd6e07efe72816897ba7e16ff20a8568b915923af11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-40b1d823b15c4384946ec3d80f7852ec3f71a802ed28a7d4ffdb6133888361b6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-c18106165292e21c69460b69e280059a8cdd1fa045292fd909b5484f00aaf7a5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a432a4016655037b6b68366b8afcff4138de1550de9d5447e76c19814a9f7725.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a43966df705e2c7aca63fd73d61b3fa42f0915d86d3928f27174ce561487cdf8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a496384727f10fb4db6532fbd58511b9f2e0a7b59379e150ed2611337bc7390d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a526e8c4f8b502b53cd853d74225bb52804a959af9d45f60e53e860df3d63b7c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/a9ce3240561cc212c2264d442e75a1ab174a6e4d2c19e22794a3fb8555170a09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ab265c39bb974ff50f240802c0f7c9d4b0d021f0dfdd18d40aa8d436c808e02a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ad894467294a4700f169cff73f58ed6bfc0e92e074364aea0a24c4f8929a1fab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/baa23b623fe0e9a47bce16a978943e84f5fc9304d4ab445058914ed111a578d5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c18106165292e21c69460b69e280059a8cdd1fa045292fd909b5484f00aaf7a5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c18106165292e21c69460b69e280059a8cdd1fa045292fd909b5484f00aaf7a5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c18106165292e21c69460b69e280059a8cdd1fa045292fd909b5484f00aaf7a5_screenshots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c214973732de8f7864ffed4564cfc0349583a5abcc571f9461f1028289cd6d98.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c28c13d3aceaa14b28db63ac83464e55dea0f0eb241095ed18714d383e8d7b43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c4918eba6f8e2310a9f6532bf28b6f800ebc0ea3bf167c48745916d2de31ee1b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c71e907410f78a125e0aea212710559614c4f20b87ffa360af6c5b06326edb81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/c9819e6c14282a98b656980cdf78b93caf163a5dc48b59c8c38a8f565e1b8c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ccc99ccf59024f0eb38d9b2bb414f6139a5fa5b3a5b874d6c160808d5b741840.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cde2d3f3231b171cea6f3097c1a3b87fe232da010b3ea2b83501be8e6333e05a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/cee9b7eb3c5e209290b817d3812e95e4d10633e203b293856c5507d9c23e277e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d780b3f9bba2e2879cbf34c75134824c3c41706f37d87c321f5872e0858acc73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/d9008698a3103a61551730a5dd6476fd19d80bcad5741b2045f7704a2e43af41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/dc1f08d59c04fac0f947ef940bdec623c9f90fb4110a4c54fd7e234021fdb265.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/dd4c7824b95de9f1536e1e06fa338d266a2dfdbf2de4b196b28f8d6e28a06c22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ebfcee73f67b020b40a0edd0811e486384500b0c1f97bc5d7c64eaab6d15a528.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f32036fe6ddca8563759e855beb07000c4804045075d41a7b214f2d9612b1f88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f53dc1a538a13320917a50fd12d5c80b85b66d5b8d90ddad3ccc14cfcc6a29e9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/f7760118ebd9f7194184c60af3e1eae257b9bc03aff383be1a7dc83b996cda8d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/ff568d15a5d3b526e46f4fa112b8acddf672a4a5be0ca772b7e31d69684eeb04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource1997867116264878812.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource3683363688972530164.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource585198392853171801.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource6358932168694591663.html.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/serenity/pagesource654545921222014733.html.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Loguin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/ConfirmarHomeQestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/ConfirmarHomeQestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/CloseSesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/CloseSesion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userInterface/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userInterface/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoguinStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoguinStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/loguin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/loguin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1eef27a2ef6c49c748edda5946dc6e57a8ffa855072670f56cc33f3e681a43e4_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1eef27a2ef6c49c748edda5946dc6e57a8ffa855072670f56cc33f3e681a43e4_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/debd50c9b7b504aad6249b11313f2b9a976a1ddfe609eda81d99653fe5f738ae.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/debd50c9b7b504aad6249b11313f2b9a976a1ddfe609eda81d99653fe5f738ae.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/debd50c9b7b504aad6249b11313f2b9a976a1ddfe609eda81d99653fe5f738ae.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/debd50c9b7b504aad6249b11313f2b9a976a1ddfe609eda81d99653fe5f738ae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/debd50c9b7b504aad6249b11313f2b9a976a1ddfe609eda81d99653fe5f738ae_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/debd50c9b7b504aad6249b11313f2b9a976a1ddfe609eda81d99653fe5f738ae_screenshots.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +158,7 @@
     "Cucumber Java.Scenario: que el usuario ingresa con credenciales correctas.executor": "Run",
     "Gradle.Build JujuReto.executor": "Run",
     "Gradle.JujuReto [aggregate].executor": "Debug",
+    "Gradle.Runner.executor": "Run",
     "Gradle.runer.executor": "Run",
     "JUnit.Loguin.executor": "Run",
     "JUnit.Unnamed.executor": "Run",
@@ -100,7 +171,8 @@
     "onboarding.tips.debug.path": "C:/Users/Janus/IdeaProjects/JujuReto/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -151,6 +223,30 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Runner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;runner.Runner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="runer" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,11 +286,13 @@
     <list>
       <item itemvalue="Cucumber Java.Scenario: que el usuario ingresa con credenciales correctas" />
       <item itemvalue="Gradle.runer" />
+      <item itemvalue="Gradle.Runner" />
       <item itemvalue="Gradle.JujuReto [aggregate]" />
       <item itemvalue="JUnit.Loguin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Runner" />
         <item itemvalue="Gradle.JujuReto [aggregate]" />
         <item itemvalue="Cucumber Java.Scenario: que el usuario ingresa con credenciales correctas" />
       </list>
@@ -224,13 +322,22 @@
       <option name="project" value="LOCAL" />
       <updated>1705716539805</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="identacion de codigo">
+      <option name="closed" value="true" />
+      <created>1705717023991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705717023991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Primer commit con loguin completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit con loguin completo" />
+    <MESSAGE value="identacion de codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="identacion de codigo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -244,6 +351,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/questions/ConfirmarHomeQestion.java</url>
           <line>30</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tasks/Catalog.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
