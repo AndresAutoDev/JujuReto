@@ -13,4 +13,7 @@ public class LoguinPage {
 
     public static final Target INCORRECT_USER_TXT = Target.the("Msg de usuario incorrecto")
             .locatedBy("//p[contains(text(),'Usuario o contraseña incorrectos.')]");
+
+    public static final Target NAME_USER_TXT = Target.the("Msg de nombre de usuario")
+            .locatedBy("//label[contains(text(),'Nombre de usuario:')]");
 }

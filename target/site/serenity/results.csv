@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"como usuario de automationcompani","que el usuario ingresa con credenciales correctas","FAILURE","2024-01-19T19:45:44.103-05:00[America/Bogota]","0.0","8.04"
+"como usuario de automationcompani","el usuario visualiza la seccion de catalogo","SUCCESS","2024-01-21T16:11:19.182-05:00[America/Bogota]","0.0","7.71"
+"como usuario de automationcompani","el usuario visualiza la seccion de productos destacados","SUCCESS","2024-01-21T16:11:27.546-05:00[America/Bogota]","0.0","6.71"
+"como usuario de automationcompani",": que el usuario ingresa con credenciales correctas","SUCCESS","2024-01-21T16:11:34.91-05:00[America/Bogota]","0.0","7.36"
+"como usuario de automationcompani","que el usuario ingresa con credenciales incorrectas","SUCCESS","2024-01-21T16:11:42.946-05:00[America/Bogota]","0.0","5.11"

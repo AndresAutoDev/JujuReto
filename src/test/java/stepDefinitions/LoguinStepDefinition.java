@@ -7,7 +7,7 @@ import cucumber.api.java.es.Entonces;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import questions.ConfirmarHomeQestion;
+import questions.CompareQestion;
 import tasks.CloseSesion;
 import tasks.Loguin;
 
@@ -38,12 +38,15 @@ public class LoguinStepDefinition {
 
     @Entonces("^el usuario es redirigido a la pagina de inicio y visualiza el mensaje de bienvenida$")
     public void elUsuarioEsRedirigidoALaPaginaDeInicioYVisualizaElMensajeDeBienvenida() {
-        OnStage.theActorCalled(ACTOR).should(seeThat(ConfirmarHomeQestion.withExpectedMessage(PROFILE_BTN, MSG_BIENVENIDA), equalTo(true)));
+        OnStage.theActorCalled(ACTOR).should(seeThat(CompareQestion.withExpectedMessage
+                (PROFILE_BTN, MSG_BIENVENIDA), equalTo(true)));
     }
 
     @Entonces("^el usuario cierra sesion$")
     public void elUsuarioCierraSesion() {
         OnStage.theActorCalled(ACTOR).attemptsTo(CloseSesion.finishSeson());
+        OnStage.theActorCalled(ACTOR).should(seeThat(CompareQestion.withExpectedMessage
+                (NAME_USER_TXT, MSG_LOGUIN_INICIO), equalTo(true)));
     }
 
     @Cuando("^el usuario ingrese \"([^\"]*)\" \"([^\"]*)\" incorrectas y oprima entrar$")
@@ -53,6 +56,7 @@ public class LoguinStepDefinition {
 
     @Entonces("^el usuario visualiza el mensaje de credenciales incorrectas$")
     public void elUsuarioVisualizaElMensajeDeCredencialesIncorrectas() {
-        OnStage.theActorCalled(ACTOR).should(seeThat(ConfirmarHomeQestion.withExpectedMessage(INCORRECT_USER_TXT, MSG_CREDENCIALES_INCORRECTAS), equalTo(true)));
+        OnStage.theActorCalled(ACTOR).should(seeThat(CompareQestion.withExpectedMessage
+                (INCORRECT_USER_TXT, MSG_CREDENCIALES_INCORRECTAS), equalTo(true)));
     }
 }
